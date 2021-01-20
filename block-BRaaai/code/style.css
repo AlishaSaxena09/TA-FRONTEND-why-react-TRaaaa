@@ -1,1 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*  */
+
+.main {
+  /* border: 2px solid black; */
+  margin: 3rem 1rem;
+  /* padding: 1rem; */
+  width: 35%;
+  height: auto;
+  font-family: "Rubik", sans-serif;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.header {
+  position: relative;
+}
+
+.date {
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  line-height: 1.25;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 20%; */
+}
+.date-number {
+}
+.month-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+.category {
+  color: white;
+  text-transform: uppercase;
+  background-color: red;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 700;
+  letter-spacing: 0.075rem;
+}
+.card-details {
+  padding: 2rem 2rem;
+  box-shadow: 0 0 4px 0 lightgrey;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.5rem;
+  color: red;
+  line-height: 2;
+}
+.para {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  line-height: 2;
+}
+ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.7rem;
+  color: grey;
+  font-size: 1.2rem;
+}
+ul > li + li {
+  margin-left: 1rem;
+}
+ul > li {
+  display: flex;
+  font-size: 0.9rem;
+}
+ul > li > i {
+  margin-right: 0.5rem;
+}
