@@ -52,7 +52,7 @@ function render() {
     // div.append(h2, btn);
     // moviesList.append(div);
   });
-  ReactDOM.render(ui, root);
+  ReactDOM.render(ui, moviesList);
 }
 
 render();
