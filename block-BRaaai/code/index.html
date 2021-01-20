@@ -29,8 +29,10 @@
 };
     let main = <>
     <img src={cardInfo.imageURL}/>
-    <date>{cardInfo.date}</date>
-    <span>{cardInfo.category}</span>
+    <div>
+        <date>{cardInfo.date}</date>
+        <span>{cardInfo.category}</span>
+    </div>
     <h1>{cardInfo.title}</h1>
     <h3>{cardInfo.subTitle}</h3>
     <p>{cardInfo.description}</p>
