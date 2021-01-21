@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div>
+    <div className="Hero">
       <h2>This is a news App.</h2>
     </div>
   );
