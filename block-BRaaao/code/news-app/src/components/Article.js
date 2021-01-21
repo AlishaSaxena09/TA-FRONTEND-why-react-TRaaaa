@@ -1,32 +1,9 @@
-function Article() {
+function Article(props) {
   return (
-    <div>
-      <h3>Article</h3>
-      <article>
-        <img src="/images/3.wepb" alt="" />
-        <a href="#">Article 1</a>
-      </article>
-      <article>
-        <img alt="" />
-        <a href="#">Article 1</a>
-      </article>
-      <article>
-        <img alt="" />
-        <a href="#">Article 1</a>
-      </article>
-      <article>
-        <img alt="" />
-        <a href="#">Article 1</a>
-      </article>
-      <article>
-        <img alt="" />
-        <a href="#">Article 1</a>
-      </article>
-      <article>
-        <img alt="" />
-        <a href="#">Article 1</a>
-      </article>
-    </div>
+    <article>
+      <img src={props.article.urlToImage} alt="" />
+      <a href="#">{props.article.title}</a>
+    </article>
   );
 }
 
