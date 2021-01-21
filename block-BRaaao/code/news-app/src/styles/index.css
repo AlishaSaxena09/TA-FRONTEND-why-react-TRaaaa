@@ -1,0 +1,8 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+  background-color: brown;
+  color: white;
+  padding: 2rem;
+}
