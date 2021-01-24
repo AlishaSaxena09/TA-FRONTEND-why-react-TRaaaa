@@ -6,7 +6,7 @@ function App() {
     <div>
       {users.map((user) => {
         console.log(user);
-        return <Card key={users.name} user={user} />;
+        return <Card key={user.id} user={user} />;
       })}
     </div>
   );
