@@ -4,6 +4,7 @@ import "./styles.css";
 
 function Card(props) {
   var user = props.user;
+  console.log(user.favoriteFruit);
   return (
     <div className="card">
       <div className="left">
@@ -11,7 +12,10 @@ function Card(props) {
         <img src={user.picture} />
         <p>{user.balance}</p>
       </div>
-      <div className="right">
+      <div
+        className="right"
+        id={user.isActive === true ? "true-bg" : "false-bg"}
+      >
         <h2>{user.name}</h2>
         <ul>
           <li>{user.company}</li>
@@ -21,11 +25,6 @@ function Card(props) {
           <li>{user.phone}</li>
           <li>{user.email}</li>
           <li>{user.favoriteFruit}</li>
-          <li>
-            {user.isActive === false
-              ? "background-color1"
-              : "background-color2"}
-          </li>
         </ul>
       </div>
     </div>
