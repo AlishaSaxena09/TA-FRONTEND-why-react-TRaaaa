@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(
+    to left,
+    #9796f0,
+    #fbc7d4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+tbody {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  /* text-align: center; */
+}
+th {
+  font-size: 2rem;
+}
+td {
+  font-size: 1.25rem;
+}
+td,
+th {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  color: aliceblue;
+}
+
+.country-name {
+  font-weight: 700;
+  letter-spacing: 0.025rem;
+  cursor: pointer;
+}
