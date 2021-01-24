@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+.small,
+.medium,
+.large {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3rem 0;
+}
+button {
+  font-weight: 500;
+}
+
+button.small {
+  padding: 0.75rem 3rem;
+  font-size: 1rem;
+  margin: 2rem;
+}
+button.medium {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+button.large {
+  padding: 1.5rem 5rem;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+button.primary {
+  color: white;
+  border-style: solid;
+  border-width: 3px;
+}
+button.primary.light {
+  background-color: #080086;
+  border-color: #080086;
+}
+button.primary.dark {
+  background-color: darkgray;
+  border-color: darkgray;
+}
+
+button.secondary {
+  border-style: solid;
+  background: white;
+  border-width: 3px;
+}
+button.secondary.light {
+  color: #080086;
+  border-color: #080086;
+}
+button.secondary.dark {
+  color: darkgray;
+  border-color: darkgray;
+}
+
+button.tertiary {
+  background: white;
+  border: 0;
+}
+button.tertiary.light {
+  color: #080086;
+  border-color: #080086;
+}
+button.tertiary.dark {
+  color: darkgray;
+  border-color: darkgray;
+}
