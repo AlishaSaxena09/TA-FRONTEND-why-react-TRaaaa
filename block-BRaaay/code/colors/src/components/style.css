@@ -1,0 +1,31 @@
+.color-shade {
+  width: 15%;
+  margin: 0.5rem;
+}
+.color-shade-preview {
+  height: 2rem;
+  width: 100%;
+}
+.color-shade-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-number {
+  font-weight: 700;
+}
+
+.color-container {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  width: 100%;
+}
+.color-container h3 {
+  margin-right: 2rem;
+}
+
+.color-shades-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
